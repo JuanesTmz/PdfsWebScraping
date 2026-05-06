@@ -240,7 +240,7 @@ class ScraperEstandar:
         log.info(f"\n─── API: {source.get('name', 'N/A')}")
         for query in source["queries"]:
             try:
-                urls = self._api_pdf_urls(source["type"], query, source.get("max_per_query", 10))
+                urls = self._api_pdf_urls(source["type"], query, source.get("max_per_query", 10), source.get("custom_url"))
                 for url in urls:
                     self._enqueue(url, source["category"], source["name"])
                 log.info(f"  {source['type']} '{query[:50]}': {len(urls)} URLs encontradas")
@@ -248,8 +248,15 @@ class ScraperEstandar:
                 pass
             time.sleep(random.uniform(*DELAY))
 
-    def _api_pdf_urls(self, api_type, query, limit):
-        if api_type == "core":
+    def _api_pdf_urls(self, api_type, query, limit, custom_url=None):
+        if api_type == "custom" and custom_url:
+            r = self.session.get(custom_url, timeout=15, params={"q": query, "query": query, "search": query, "limit": limit})
+            if r.status_code == 200:
+                # Buscamos de forma genérica cualquier string que sea http...pdf
+                import re
+                return list(set(re.findall(r'https?://[^\s\'"]+\.pdf', r.text, flags=re.IGNORECASE)))
+            return []
+        elif api_type == "core":
             r = self.session.get("https://api.core.ac.uk/v3/search/works", timeout=15, params={
                 "q": query, "limit": limit, "fulltext": "true",
             })
@@ -316,19 +323,24 @@ class ScraperEstandar:
                 try: future.result()
                 except Exception: pass
 
-    def run(self):
+    def run(self, direct_pdfs=None, crawl_sources=None, api_sources=None, skip_download=False):
         log.info("═" * 65)
         log.info("ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)")
         log.info("═" * 65)
         
-        for item in DIRECT_PDFS:
+        direct_pdfs = direct_pdfs if direct_pdfs is not None else DIRECT_PDFS
+        crawl_sources = crawl_sources if crawl_sources is not None else CRAWL_SOURCES
+        api_sources = api_sources if api_sources is not None else API_SOURCES
+        
+        for item in direct_pdfs:
             if isinstance(item, dict):
                 self._enqueue(item["url"], item["category"], item["name"])
                 
-        for src in CRAWL_SOURCES: self._collect_crawl(src)
-        for src in API_SOURCES: self._collect_api(src)
+        for src in crawl_sources: self._collect_crawl(src)
+        for src in api_sources: self._collect_api(src)
         
-        self._execute_queue()
+        if not skip_download:
+            self._execute_queue()
         
         log.info("\n═" * 65)
         log.info("RESUMEN FINAL")
@@ -336,6 +348,8 @@ class ScraperEstandar:
         log.info(f"  ○ Omitidos    : {self.stats['skipped']}")
         log.info(f"  ✗ Errores     : {self.stats['errors']}")
         log.info("═" * 65)
+        
+        return self._queue
 
 if __name__ == "__main__":
     ScraperEstandar().run()

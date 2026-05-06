@@ -1,0 +1,696 @@
+2026-05-06 01:03:51,804 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:03:51,805 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:03:51,805 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:03:51,805 [INFO] 
+─── API: Búsqueda_APIs_core
+2026-05-06 01:03:53,816 [INFO]   core 'educacion virtual colombia': 15 URLs encontradas
+2026-05-06 01:03:55,179 [INFO]   core 'inteligencia artificial pedagogia': 15 URLs encontradas
+2026-05-06 01:03:55,224 [INFO] 
+══ Descargando 30 PDFs con 30 workers en paralelo ══
+2026-05-06 01:03:57,930 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:57,982 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:57,982 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:57,982 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,000 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,000 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,028 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,028 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,052 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,053 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,136 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,137 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,137 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,139 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,140 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,140 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,141 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,141 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,142 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:03:58,240 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:03,308 [INFO] ✓ papers_investigacion/299cf602_39105101.pdf (108 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:03,393 [INFO] ✓ papers_investigacion/e75dc4b8_160126001.pdf (280 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:03,521 [INFO] ✓ papers_investigacion/d7d64048_38987532.pdf (188 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:03,652 [INFO] ✓ papers_investigacion/1076234f_51407975.pdf (165 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:04,009 [INFO] ✓ papers_investigacion/5234f54c_85002889.pdf (212 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:04,429 [INFO] ✓ papers_investigacion/1084d483_71893960.pdf (150 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:05,544 [INFO] ✓ papers_investigacion/5c93b26c_32327158.pdf (313 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:05,916 [INFO] ✓ papers_investigacion/f8acc007_51068357.pdf (286 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:09,166 [INFO] ✓ papers_investigacion/6f0bef20_86442393.pdf (919 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:09,198 [INFO] ✓ papers_investigacion/6a0bd120_25589036.pdf (643 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:10,100 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:10,101 [INFO] ✓ papers_investigacion/25eec749_71398419.pdf (974 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:10,517 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:10,518 [INFO] ✓ papers_investigacion/9afb705c_39050402.pdf (886 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:10,913 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:10,914 [INFO] ✓ papers_investigacion/230f1b7a_86444045.pdf (1213 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:12,090 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:12,090 [INFO] ✓ papers_investigacion/e4dcb908_13273052.pdf (857 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:14,574 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:14,575 [INFO] ✓ papers_investigacion/7dc9f1f6_143447702.pdf (1128 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:17,278 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:17,279 [INFO] ✓ papers_investigacion/24baf486_80118456.pdf (1618 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:25,406 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:25,406 [INFO] ✓ papers_investigacion/e72980e9_160741034.pdf (4210 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:25,813 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:04:25,814 [INFO] ✓ papers_investigacion/f7387fd2_47064712.pdf (2793 KB) - Búsqueda_APIs_core
+2026-05-06 01:04:25,819 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:04:25,819 [INFO] RESUMEN FINAL
+2026-05-06 01:04:25,819 [INFO]   ✓ Descargados : 18
+2026-05-06 01:04:25,820 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:04:25,820 [INFO]   ✗ Errores     : 12
+2026-05-06 01:04:25,820 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:09:33,846 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:09:33,846 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:09:33,846 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:09:33,846 [INFO] 
+─── API: Búsqueda_APIs_eric
+2026-05-06 01:09:35,576 [INFO]   eric 'educacion virtual colombia': 15 URLs encontradas
+2026-05-06 01:09:36,227 [INFO]   eric 'inteligencia artificial pedagogia': 15 URLs encontradas
+2026-05-06 01:09:36,260 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:09:36,260 [INFO] RESUMEN FINAL
+2026-05-06 01:09:36,260 [INFO]   ✓ Descargados : 0
+2026-05-06 01:09:36,260 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:09:36,260 [INFO]   ✗ Errores     : 0
+2026-05-06 01:09:36,260 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:12:03,566 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:12:03,566 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:12:03,566 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:12:03,567 [INFO] 
+─── API: Búsqueda_APIs_openalex
+2026-05-06 01:12:05,366 [INFO]   openalex 'educacion virtual colombia': 2 URLs encontradas
+2026-05-06 01:12:05,715 [INFO]   openalex 'inteligencia artificial pedagogia': 1 URLs encontradas
+2026-05-06 01:12:05,753 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:12:05,753 [INFO] RESUMEN FINAL
+2026-05-06 01:12:05,753 [INFO]   ✓ Descargados : 0
+2026-05-06 01:12:05,754 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:12:05,754 [INFO]   ✗ Errores     : 0
+2026-05-06 01:12:05,754 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:15:31,983 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:15:31,984 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:15:31,984 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:15:31,984 [INFO] 
+─── API: Búsqueda_APIs_openalex
+2026-05-06 01:15:32,861 [INFO]   openalex 'educacion virtual colombia': 2 URLs encontradas
+2026-05-06 01:15:33,201 [INFO]   openalex 'inteligencia artificial pedagogia': 1 URLs encontradas
+2026-05-06 01:15:33,226 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:15:33,226 [INFO] RESUMEN FINAL
+2026-05-06 01:15:33,226 [INFO]   ✓ Descargados : 0
+2026-05-06 01:15:33,226 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:15:33,227 [INFO]   ✗ Errores     : 0
+2026-05-06 01:15:33,227 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:16:10,257 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:16:10,257 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:16:10,258 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:16:10,258 [INFO] 
+─── API: Búsqueda_APIs_zenodo
+2026-05-06 01:16:26,498 [INFO] 
+══ Descargando 0 PDFs con 30 workers en paralelo ══
+2026-05-06 01:16:26,498 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:16:26,499 [INFO] RESUMEN FINAL
+2026-05-06 01:16:26,499 [INFO]   ✓ Descargados : 0
+2026-05-06 01:16:26,499 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:16:26,499 [INFO]   ✗ Errores     : 0
+2026-05-06 01:16:26,499 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:16:40,271 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:16:40,271 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:16:40,271 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:16:40,271 [INFO] 
+─── API: Búsqueda_APIs_zenodo
+2026-05-06 01:16:54,453 [INFO]   zenodo 'Matemáticas básicas': 0 URLs encontradas
+2026-05-06 01:16:54,465 [INFO] 
+══ Descargando 0 PDFs con 30 workers en paralelo ══
+2026-05-06 01:16:54,466 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:16:54,466 [INFO] RESUMEN FINAL
+2026-05-06 01:16:54,466 [INFO]   ✓ Descargados : 0
+2026-05-06 01:16:54,466 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:16:54,466 [INFO]   ✗ Errores     : 0
+2026-05-06 01:16:54,466 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:17:04,850 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:17:04,851 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:17:04,851 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:17:04,851 [INFO] 
+─── API: Búsqueda_APIs_core
+2026-05-06 01:17:06,734 [INFO]   core 'Matemáticas básicas': 15 URLs encontradas
+2026-05-06 01:17:06,777 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:17:06,777 [INFO] RESUMEN FINAL
+2026-05-06 01:17:06,777 [INFO]   ✓ Descargados : 0
+2026-05-06 01:17:06,777 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:17:06,777 [INFO]   ✗ Errores     : 0
+2026-05-06 01:17:06,778 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:17:17,541 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:17:17,542 [INFO] ESCUELA INTELIGENTE — Scraper Estándar (Plantilla Universal)
+2026-05-06 01:17:17,542 [INFO] ═════════════════════════════════════════════════════════════════
+2026-05-06 01:17:17,542 [INFO] 
+─── API: Búsqueda_APIs_core
+2026-05-06 01:17:19,230 [INFO]   core 'Matemáticas básicas': 15 URLs encontradas
+2026-05-06 01:17:19,277 [INFO] 
+══ Descargando 15 PDFs con 30 workers en paralelo ══
+2026-05-06 01:17:21,015 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:21,015 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:21,015 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:21,016 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:21,016 [WARNING] Connection pool is full, discarding connection: core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:24,096 [INFO] ✓ Matemáticas/682e5ae0_81651394.pdf (76 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:24,277 [INFO] ✓ Matemáticas/fe11df08_33252330.pdf (207 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:24,349 [INFO] ✓ Matemáticas/7dd29221_158572874.pdf (174 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:24,556 [INFO] ✓ Matemáticas/c52d7ff6_157765213.pdf (404 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:24,714 [INFO] ✓ Matemáticas/81b51515_33251897.pdf (151 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:24,737 [INFO] ✓ Matemáticas/c64610c0_12341330.pdf (456 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:25,169 [INFO] ✓ Matemáticas/27d3b54f_12342278.pdf (385 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:25,433 [INFO] ✓ Matemáticas/455dcf92_154339218.pdf (1346 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:25,646 [INFO] ✓ Matemáticas/6988f288_12341499.pdf (85 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:26,662 [INFO] ✓ Matemáticas/d22fb4d2_154339136.pdf (498 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:26,781 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:26,781 [INFO] ✓ Matemáticas/c8099d31_213560070.pdf (868 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:27,292 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:27,292 [INFO] ✓ Matemáticas/652e42dc_155246019.pdf (1128 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:27,697 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:27,697 [INFO] ✓ Matemáticas/de3038f2_32324824.pdf (2306 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:42,803 [WARNING] Connection pool is full, discarding connection: fileserver-az.core.ac.uk. Connection pool size: 10
+2026-05-06 01:17:42,804 [INFO] ✓ Matemáticas/9c034d89_48393575.pdf (5876 KB) - Búsqueda_APIs_core
+2026-05-06 01:17:42,807 [INFO] 
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+═
+2026-05-06 01:17:42,807 [INFO] RESUMEN FINAL
+2026-05-06 01:17:42,807 [INFO]   ✓ Descargados : 14
+2026-05-06 01:17:42,807 [INFO]   ○ Omitidos    : 0
+2026-05-06 01:17:42,807 [INFO]   ✗ Errores     : 1
+2026-05-06 01:17:42,808 [INFO] ═════════════════════════════════════════════════════════════════
