@@ -5,7 +5,7 @@ Instrucciones: Reemplazar los marcadores en DIRECT_PDFS, CRAWL_SOURCES y API_SOU
 """
 import hashlib, logging, random, time, threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, unquote
 from pathlib import Path
 
 import requests
@@ -129,7 +129,15 @@ class ScraperEstandar:
     def _enqueue(self, url, category, name, verify=True):
         if url and url.startswith("http") and url not in self._seen:
             self._seen.add(url)
-            self._queue.append((url, category, name, verify))
+            path_segment = urlparse(url).path.rstrip("/").split("/")[-1] or ""
+            stem = path_segment.replace(".pdf", "").replace(".PDF", "")
+            if len(stem) > 3:
+                doc_name = unquote(path_segment).replace("_", " ").replace("-", " ").strip()
+                if not doc_name.lower().endswith(".pdf"):
+                    doc_name += ".pdf"
+            else:
+                doc_name = name
+            self._queue.append((url, category, doc_name, verify))
 
     def _download_pdf(self, url, category, name, verify=True):
         r = self._get(url, stream=True, verify=verify, timeout=15)
