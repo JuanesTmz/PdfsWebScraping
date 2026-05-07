@@ -29,15 +29,22 @@ HEADERS = {
 }
 
 for _d in [OUTPUT_DIR, LOGS_DIR]:
-    _d.mkdir(exist_ok=True)
+    try:
+        _d.mkdir(exist_ok=True)
+    except OSError:
+        pass
+
+_handlers = [logging.StreamHandler()]
+try:
+    LOGS_DIR.mkdir(exist_ok=True)
+    _handlers.append(logging.FileHandler(LOGS_DIR / "scraper_generico.log", encoding="utf-8"))
+except OSError:
+    pass
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOGS_DIR / "scraper_generico.log", encoding="utf-8"),
-        logging.StreamHandler(),
-    ],
+    handlers=_handlers,
 )
 log = logging.getLogger(__name__)
 
